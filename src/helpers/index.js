@@ -1,4 +1,4 @@
-
+// Hola
 export function validar(input) {
   let errors = {};
   let emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
