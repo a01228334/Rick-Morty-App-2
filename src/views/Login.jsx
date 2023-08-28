@@ -51,7 +51,7 @@ function Login({login}) {
     <div className={styles.container}>
       <form onSubmit={submitHandler} className={styles.form}>
         <div className={styles.inputGroup}>
-          <label>USERNAME</label>
+        <label className={styles.labelStyle}>USERNAME</label>
           <input
             type="text"
             name="email"
@@ -62,8 +62,9 @@ function Login({login}) {
           />
           <span className={styles.error}>{errors.email}</span>
         </div>
+
         <div className={styles.inputGroup}>
-          <label>PASSWORD</label>
+        <label className={styles.labelStyle}>USERNAME</label>
           <input
             name="password"
             type="password"
