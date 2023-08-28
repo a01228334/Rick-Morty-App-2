@@ -1,8 +1,17 @@
 function Home() {
     return (
       <div>
-        <h1>Home</h1>
+        <div>
+          <h1>DIV 1</h1>
+          
+        </div>
+
+        <div>
+          <h1>DIV 2</h1>
+        </div>
+        
       </div>
+      
     );
   }
   

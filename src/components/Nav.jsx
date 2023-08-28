@@ -2,7 +2,6 @@ import SearchBar from "./SearchBar";
 import {Link} from "react-router-dom";
 import './styles.css';
 
-
 function Nav({onSearch, randomize}) {
   return (
     <div>
@@ -12,6 +11,7 @@ function Nav({onSearch, randomize}) {
         <Link to="/home" className="linkButton linkButton-home">Home</Link>
         <Link to="/my_cards" className="linkButton linkButton-home">My Cards</Link>
         <Link to="/my_account" className="linkButton linkButton-home">My Account</Link>
+        <Link to="/test" className="linkButton linkButton-home">X</Link>
 
       </div>
 

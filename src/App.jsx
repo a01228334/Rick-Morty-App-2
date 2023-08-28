@@ -12,6 +12,9 @@ import ErrorPage from "./views/ErrorPage.jsx";
 import Login from "./views/Login.jsx";
 import MyAccount from "./views/MyAccount.jsx";
 import Home from "./views/home.jsx";
+import Test from "./views/Test.jsx";
+import FlavorForm from "./components/FlavorForm"; // Ajusta la ruta según la ubicación de tu archivo.
+
 
 
 const EMAIL = "gama@gmail.com";
@@ -78,12 +81,11 @@ function App() {
     <div className="App">
       
       {location.pathname !== "/" && (
-        <Nav
-          onSearch={searchHandler}
-          randomize={randomHandler}
-          
-        />
-      )}
+        <Nav onSearch={searchHandler} randomize={randomHandler}/>
+      )} 
+
+      
+      
 
       <Routes>
 
@@ -99,6 +101,10 @@ function App() {
         <Route path="/detail/:id" element={<Detail />} />
 
         <Route path="/my_account" element={<MyAccount email={EMAIL} />} />
+
+        <Route path="/flavors" element={<FlavorForm />} />
+
+        <Route path="/test" element={<Test />} />
 
         <Route path="*" element={<ErrorPage />} />
 
