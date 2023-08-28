@@ -1,0 +1,64 @@
+.linkButton {
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.linkButton-about {
+    color: black;
+    border-radius: 4;
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.linkButton-home {
+    color: black;
+    border-radius: 4;
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.buttonContainer {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+/* Card.module.css */
+.cardContainer {
+    margin-top: 16px;
+    width: 300px;       /* Ancho exacto */
+    height: 400px;      /* Altura exacta */
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 50px auto;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;   /* Asegura que todo el contenido esté dentro de las dimensiones exactas */
+}
+
+
+.closeButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.image {
+    cursor: pointer;
+    max-width: 100%;
+    display: block;
+}
+
+
